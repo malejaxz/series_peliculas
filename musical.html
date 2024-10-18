@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Musical - Protagonistas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fefefe, #e8e8e8);
+            color: #333;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-bottom: 2px solid #ff5722;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #ff5722;
+        }
+
+        p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff5722;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Informacion sobre High School Musical</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/troy.jpg" alt="Troy Bolton">
+            <h2>Troy Bolton</h2>
+            <p>Interpretado por Zac Efron, Troy es el capitán del equipo de baloncesto y un talentoso cantante con grandes sueños.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/gabriella.jpg" alt="Gabriella Montez">
+            <h2>Gabriella Montez</h2>
+            <p>Interpretada por Vanessa Hudgens, Gabriella es una estudiante académicamente brillante y la pareja romántica de Troy.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/sharpay.jpg" alt="Sharpay Evans">
+            <h2>Sharpay Evans</h2>
+            <p>Interpretada por Ashley Tisdale, Sharpay es la diva de la escuela que quiere brillar en cada espectáculo.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/chad.jpg" alt="Chad Danforth">
+            <h2>Chad Danforth</h2>
+            <p>Interpretado por Corbin Bleu, Chad es el mejor amigo de Troy y también un talentoso jugador de baloncesto.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/kelsi.jpg" alt="Kelsi Nielsen">
+            <h2>Kelsi Nielsen</h2>
+            <p>Interpretada por Olesya Rulin, Kelsi es la compositora talentosa que crea las canciones para los musicales escolares.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fan Page de High School Musical. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

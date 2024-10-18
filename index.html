@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="informacion.html">Informacion</a>
+                <ul class="menu-vertical">
+                    <li><a href="dondever.html">¿Donde ver?</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <a href="escuela.html"> <img src="img/musical.jpg" alt="1" /> </a>
+          <h1>High School Musical</h1>
+          <div class="details">
+            <h2>High School Musical</h2>
+            <p>Musical</p>
+          </div>
+        </div>
+        <div class="slider-img">
+            <a href="icarly.html"> <img src="img/icarly.jpeg" alt="2" /> </a>
+          <h1>iCarly</h1>
+          <div class="details">
+            <h2>iCarly</h2>
+            <p>Comedy</p>
+          </div>
+        </div>
+        <div class="slider-img">
+            <a href="victorious.html"> <img src="img/victoriousss.jpeg" alt="3" /> </a>
+          <h1>Victorious</h1>
+          <div class="details">
+            <h2>Victorious</h2>
+            <p>Comedy</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+            <a href="bigtimerush.html"> <img src="img/bigtimerush.jpg" alt="4" /> </a>
+          <h1>Big Time Rush</h1>
+          <div class="details">
+            <h2>Big Time Rush</h2>
+            <p>Musical</p>
+          </div>
+        </div>
+        <div class="slider-img">
+            <a href="drakeyjosh.html"><img src="img/drakeyjosh.jpg" alt="5" /> </a>
+          <h1>Drake & Josh</h1>
+          <div class="details">
+            <h2>Drake & Josh</h2>
+            <p>Comedy</p>
+          </div>
+        </div>
+        <div class="slider-img">
+            <a href="samycat.html"> <img src="img/samcatpng.jpg" alt="6" /> </a>
+          <h1>Sam & Cat</h1>
+          <div class="details">
+            <h2>Sam & Cat</h2>
+            <p>Comedy</p>
+          </div>
+        </div>
+        <div class="slider-img">
+            <a href="estrella.html"> <img src="img/estartru.jpg" alt="7" /> </a>
+          <h1>StarsTruck</h1>
+          <div class="details">
+            <h2>StarsTruck</h2>
+            <p>Romance</p>
+          </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+   
+
+    </body>
+    </html>
+  

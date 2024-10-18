@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam & Cat </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f9f9f9, #eaeaea);
+            color: #333;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #ff4d4d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-bottom: 2px solid #ff4d4d;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #ff4d4d;
+        }
+
+        p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff4d4d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Informacion sobre Sam & Cat</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/sam.jpg" alt="Sam Puckett">
+            <h2>Sam Puckett</h2>
+            <p>Interpretada por Jennette McCurdy, Sam es la atrevida y divertida niñera, siempre lista para la aventura.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/catvalentine.jpg" alt="Cat Valentine">
+            <h2>Cat Valentine</h2>
+            <p>Interpretada por Ariana Grande, Cat es la dulce y soñadora amiga de Sam, conocida por su personalidad alegre.</p>
+        </div>
+
+       
+
+        <div class="card">
+            <img src="img/goomer.jpg" alt="Goomer">
+            <h2>Goomer</h2>
+            <p>Interpretado por Adam Hicks, Goomer es un amigo de Sam y Cat que aporta su humor único a la serie.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/nona.jpg" alt="Nona">
+            <h2>Nona</h2>
+            <p>Interpretada por Kira Kosarin, Nona es la abuela de Cat y una divertida parte del grupo que siempre ayuda.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fan Page de Sam & Cat. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

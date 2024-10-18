@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drake & Josh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f9f9f9, #eaeaea);
+            color: #333;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-bottom: 2px solid #3498db;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #3498db;
+        }
+
+        p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Informacion sobre Drake & Josh</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/drake.jpg" alt="Drake Parker">
+            <h2>Drake Parker</h2>
+            <p>Interpretado por Drake Bell, Drake es el carismático y divertido hermano que siempre se mete en problemas.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/josh.jpg" alt="Josh Nichols">
+            <h2>Josh Nichols</h2>
+            <p>Interpretado por Josh Peck, Josh es el responsable y estudioso, siempre tratando de mantener a Drake bajo control.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/megan.jpg" alt="Megan Parker">
+            <h2>Megan Parker</h2>
+            <p>Interpretada por Miranda Cosgrove, Megan es la hermana pequeña que siempre está tramando alguna broma.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/papajosh.jpg" alt="Walter Nichols">
+            <h2>Walter Nichols</h2>
+            <p>Interpretado por Jonathan Goldstein, Walter es el padre de Josh, que trata de equilibrar la vida familiar con su trabajo.</p>
+        </div>
+
+     
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fan Page de Drake & Josh. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
